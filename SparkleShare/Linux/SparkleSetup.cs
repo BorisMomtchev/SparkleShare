@@ -303,6 +303,7 @@ namespace SparkleShare {
                 AddButton (add_button);
 
                 // TODO: unfocused treeview row: make background grey                
+                // TODO: scroll to selected row
 
                 Controller.CheckAddPage (address_entry.Text, path_entry.Text, 1);
                 tree_view.GrabFocus ();
